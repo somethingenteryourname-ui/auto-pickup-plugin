@@ -1,0 +1,17 @@
+name: AutoPickup
+version: '${project.version}'
+main: me.autopickup.AutoPickup
+api-version: '1.21'
+description: Blocks you break go straight into your inventory.
+
+commands:
+  autopickup:
+    description: Toggle auto-pickup on or off.
+    usage: /<command> [on|off]
+    aliases: [ap]
+    permission: autopickup.use
+
+permissions:
+  autopickup.use:
+    description: Allows using /autopickup
+    default: true
